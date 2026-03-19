@@ -1,0 +1,68 @@
+{
+    "version": 1,
+    "name": "bullet action",
+    "maps": [
+        {
+            "name": "obj",
+            "id": "f0f2c926-4a64-4090-b8c3-0b13faf4e429",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "8fdb0fe3-82b6-462b-b271-a2158c520f73",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a1de776b-9242-4207-a428-4207644d40eb",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "cf76392c-4139-4855-bbfb-c4805feca6bd",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "37d622c1-0590-4683-ae44-2425028e56e1",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "fd4a442e-e4cf-40b1-9e0b-b0af6400aee4",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
